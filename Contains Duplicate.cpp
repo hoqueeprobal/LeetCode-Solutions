@@ -8,13 +8,9 @@ Approach :
 3. In case, any two neighboring elements are the same, we return true, which will mean that there is a duplicate.
 4. When we finish the traversal and no duplicates are found, we return false.
 
-
 Complexity
-Time Complexity:
-O(nlog⁡n)— Sorting the array requires O(nlog⁡n), while the single pass through the array takes O(n).
-
-Space Complexity:
-O(1) — If the sorting algorithm is in-place (e.g. the one in C++ STL sort()), then no extra memory is required.
+Time Complexity: O(nlog⁡n)— Sorting the array requires O(nlog⁡n), while the single pass through the array takes O(n).
+Space Complexity: O(1) — If the sorting algorithm is in-place (e.g. the one in C++ STL sort()), then no extra memory is required.
 
 Code: C++
 class Solution {
