@@ -9,7 +9,7 @@ Approach :
 4. When we finish the traversal and no duplicates are found, we return false.
 
 Complexity
-Time Complexity: O(nlog⁡n)— Sorting the array requires O(nlog⁡n), while the single pass through the array takes O(n).
+Time Complexity: O(nlog⁡n) — Sorting the array requires O(nlog⁡n), while the single pass through the array takes O(n).
 Space Complexity: O(1) — If the sorting algorithm is in-place (e.g. the one in C++ STL sort()), then no extra memory is required.
 
 Code: C++
@@ -17,7 +17,7 @@ class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
         sort(nums.begin(),nums.end());
-        for (int i=0; i< nums.size()-1;i++) {
+        for (int i=0; i<nums.size()-1; i++) {
             if(nums[i]==nums[i+1]) {
                 return true; 
             }
