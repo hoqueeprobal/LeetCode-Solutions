@@ -1,5 +1,5 @@
 https://leetcode.com/problems/maximum-average-subarray-i/
-643. Maximum Average Subarray I
+Problem : 643. Maximum Average Subarray I
 
 Intuition :
 We​‍​‌‍​‍‌ are to find a length k subarray that has the maximum average. The naive way of doing this would be to recalculate the sum for each subarray which would make the algorithm have a time complexity of O(n × k) and thus be very inefficient.
