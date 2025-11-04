@@ -1,5 +1,5 @@
 https://leetcode.com/problems/rotate-image/
-Problem :48. Rotate Image
+Problem : 48. Rotate Image
 
 Intuition:
 Rotating a 2D matrix 90 degrees clockwise in-place requires a transformation that rearranges elements without using extra space.The first step is to transpose the matrix — flipping it over its main diagonal, which effectively turns rows into columns.However, this doesn't complete the rotation. To reach the final arrangement, we then reverse each row which reorders the elements correctly for a 90-degree clockwise rotation. This two-step process is both simple and efficient, allowing the rotation to be done cleanly and in-place.
