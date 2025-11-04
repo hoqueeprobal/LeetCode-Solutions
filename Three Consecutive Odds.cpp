@@ -1,5 +1,5 @@
 https://leetcode.com/problems/three-consecutive-odds/
-Problem :1550. Three Consecutive Odds
+Problem : 1550. Three Consecutive Odds
 
 Intuition :
 Given an array of integers, determine whether it contains three consecutive odd numbers.
