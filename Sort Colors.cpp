@@ -1,5 +1,5 @@
 https://leetcode.com/problems/sort-colors/
-Problem :75. Sort Colors
+Problem : 75. Sort Colors
 
 Intuition
 The problem is to sort colors represented by an array of 0s, 1s, and 2s which are red, white, and blue, respectively. 
