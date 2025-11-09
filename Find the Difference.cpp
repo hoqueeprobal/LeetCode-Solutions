@@ -1,5 +1,5 @@
 https://leetcode.com/problems/find-the-difference/
-Problem :389. Find the Difference
+Problem : 389. Find the Difference
 
 Intuition:
 We are given two strings, s and t. String t has been created by shuffling s and then inserting one additional character. We need to identify and return that extra character.
