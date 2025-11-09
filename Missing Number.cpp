@@ -1,5 +1,5 @@
 https://leetcode.com/problems/missing-number/
-Problem :268. Missing Number
+Problem : 268. Missing Number
 
 Intuition:
 Given an array nums containing n distinct numbers taken from the range [0, n], return the one number that is missing from the array.
