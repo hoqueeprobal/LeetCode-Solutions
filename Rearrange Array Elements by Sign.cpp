@@ -1,5 +1,5 @@
 https://leetcode.com/problems/rearrange-array-elements-by-sign/
-Problem :2149. Rearrange Array Elements by Sign
+Problem : 2149. Rearrange Array Elements by Sign
 
 Intuition :
 First we may split numbers into lists of positive and negative respectively then merge them one by one. We only need to ensure that the first element in the list is positive. ​‍​
