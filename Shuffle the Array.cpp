@@ -1,5 +1,5 @@
 https://leetcode.com/problems/shuffle-the-array/
-Problem :1470. Shuffle the Array
+Problem : 1470. Shuffle the Array
 
 Intuition :
 Given an array nums containing 2n elements, where the first n elements form one group and the next n elements form another. The objective is to shuffle the array so that elements from the two groups alternate in the result. The expected output format is [nums[0], nums[n], nums[1], nums[n+1], ..., nums[n-1], nums[2n-1]]. 
