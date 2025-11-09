@@ -1,5 +1,5 @@
 https://leetcode.com/problems/single-number/
-Problem :136. Single Number
+Problem : 136. Single Number
 
 Intuition:
 We have a list of integers, where each element appears twice, except one that appears only once, and we want to identify the unique number.
