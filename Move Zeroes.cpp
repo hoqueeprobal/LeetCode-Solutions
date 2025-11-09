@@ -7,10 +7,11 @@ A common and efficient approach for such problems is the two-pointer technique, 
 and the other keeps track of the position to place the next non-zero element.
 
 Approach :
-We initialize a pointer nonzero=0 to be used as a place holder for the position that the next non-zero element will go.
-We iterate through the array with another pointer j.If nums[j] is non-zero, we swap it with nums[nonzero] 
-and increment nonzero.This reordering leaves all non-zero elements in their original order at the beginning of the array
-and all zeroes at its end.
+1. Set​‍​‌‍​‍‌ a pointer nonzero = 0 which indicates the position of the next non-zero element.
+2. Traverse the array with the pointer j.
+3. In case nums[j] is a non-zero value, interchange nums[j] with nums[nonzero].After each exchange, nonzero is increased by 1.
+4. As a result of the loop, all the non-zero elements are at the front and in the same order as before.
+5. The rest of the elements (zeros) are placed at the end of the ​‍​‌‍​‍‌array.
 
 Complexity :
 Time complexity: O(n) — We traverse the array once, and each swap takes constant time.
