@@ -1,5 +1,5 @@
 https://leetcode.com/problems/special-array-i/
-Problem :3151. Special Array I
+Problem : 3151. Special Array I
 
 Intuition:
 There is a need to determine if a given array is special. Such an array is called special if every pair of neighboring elements is of 
