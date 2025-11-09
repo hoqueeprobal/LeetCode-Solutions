@@ -1,5 +1,5 @@
 https://leetcode.com/problems/contains-duplicate/
-Problem :217. Contains Duplicate
+Problem : 217. Contains Duplicate
 
 Intuition :
 The task is to find if there is any duplicate element in the list. The easiest way to spot the duplicates is by initially sorting the list. 
